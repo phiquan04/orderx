@@ -6190,7 +6190,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important; }
+  margin-bottom: 0px !important; }
 
 .ml-5,
 .mx-5 {
@@ -7268,12 +7268,12 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #dee2e6 !important; } }
 
 body {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   background: #121618;
   font-size: 15px;
   line-height: 1.8;
   color: gray;
-  background: url(../images/bg_4.jpg) no-repeat fixed;
+  background: rgb(2,0,36) !important;
   background-size: cover; }
   body.menu-show {
     overflow: hidden;
@@ -7305,8 +7305,9 @@ h1, h2, h3, h4, h5,
   color: #fac564 !important; }
 
 .ftco-navbar-light {
-  background: #121618 !important;
-  z-index: 3; }
+  background: rgb(2,0,36) !important;
+  z-index: 3; 
+}
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
       background: #000 !important;
@@ -7400,7 +7401,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #121618 !important;
+    /* background: #121618 !important; */
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
     .ftco-navbar-light.scrolled .nav-item > .nav-link {
@@ -7545,7 +7546,7 @@ h1, h2, h3, h4, h5,
           .owl-carousel.home-slider .slider-item .slider-text {
             text-align: center; } }
         .owl-carousel.home-slider .slider-item .slider-text .subheading {
-          font-family: "Nothing You Could Do", cursive;
+         
           font-size: 30px;
           color: #fac564; }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
